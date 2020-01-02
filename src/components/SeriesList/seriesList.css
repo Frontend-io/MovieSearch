@@ -1,0 +1,78 @@
+.seriesList{
+    max-width: 90%;
+    margin: 10px auto;
+}
+.seriesList .movie-wrap {
+    /* background: #fff; */
+    min-height: 50vh;
+    align-items: stretch !important;
+}
+.seriesList .movie{
+    display: flex;
+    align-self: stretch;
+    flex-direction: column;
+    box-sizing: border-box;
+    border: 1.2px solid #dddddd;
+    border-radius: 5px;
+    margin: 8px;
+    min-height: 270px;
+    background: #fff;
+}
+.seriesList .movie h4{
+    font-size: 15px;
+}
+.seriesList .label{
+    padding: 5px 8px;
+    font-size: 14px;
+    background: orange
+}
+.seriesList .movie .img{
+    min-height: 180px;
+    background: #e6e3e3;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0px !important;
+    word-break: break-all;
+    overflow: hidden;
+}
+.seriesList .movie .img img{
+    width: 100%;
+}
+.seriesList .movie .img:hover{
+    background: #d8d4d4;
+}
+.seriesList .movie .des  *{
+    padding: 10px 10px;
+}
+.seriesList .movie .des  div{
+    padding: 0px !important
+}
+.seriesList .movie .divider{
+    background: #dddddd
+}
+.seriesList .movie p{
+    text-align: left;
+    margin-top: 5px;
+}
+.seriesList .movie p{
+    word-break: break-all
+}
+
+@media(min-width: 768px){
+    .seriesList .movie{
+        width: 200px
+    }
+}
+@media(max-width: 500px){
+    .seriesList .movie {
+        margin: 10px 0px !important;
+        min-width: 100% !important;
+        width: 100% !important; 
+    }
+    .seriesList .movie-wrap{
+        padding: 0px !important;
+    }
+    .seriesList .movie-wrap > *{
+        width: 100%;
+    }
+}

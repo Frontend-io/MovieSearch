@@ -1,0 +1,44 @@
+.singleSeries{
+    background: #fafafa;
+    margin-bottom: 300px;
+}
+.singleSeries .top-bar button{
+    flex: 1;
+    background: rgb(128, 190, 35);
+    min-width: 80px;
+    max-width: 80px;
+    color: #fff;
+}
+.singleSeries .top-bar .intro{
+    flex: 10;
+    align-self: flex-start
+} 
+.singleSeries .seriesProper{
+    background: #fff;
+    flex-wrap: wrap;
+    margin: 20px 0px;
+    padding: 20px 0px;
+}
+.singleSeries .seriesProper > *{
+    flex: 1
+}
+.singleSeries .seriesProper img{
+    object-fit: contain;
+    height: auto;
+    align-self: flex-start
+}
+.singleSeries .seriesProper .des *{
+    text-align: left !important
+}
+@media(min-width: 768px){
+    .singleSeries .container{
+        max-width: 80%;
+    }
+    .singleSeries .seriesProper .des p{
+        font-size: 18px !important;
+        max-width: 600px;
+    }
+}
+.singleSeries .seriesProper .des p{
+    max-width: 600px;
+}

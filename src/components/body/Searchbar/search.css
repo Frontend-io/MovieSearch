@@ -1,0 +1,27 @@
+.search{
+    margin: 30px auto 10px auto;
+    max-width: 90%;
+    box-sizing: border-box;
+    padding: 15px;
+    border-radius: 3px;
+    flex-wrap: wrap;
+}
+.search input{
+    border-bottom: 1.2px solid #bbbbbb;
+    font-size: 16px;
+    transition: .3s;
+    width: 100%;
+}
+.search input:focus{
+    border-color: #222222;
+    transition: .3s;
+}
+.search grey-t{
+    color: #cccccc
+}
+
+@media(min-width: 768px){
+    .search input{
+        max-width: 50%
+    }
+}
